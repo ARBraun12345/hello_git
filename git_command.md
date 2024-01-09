@@ -126,6 +126,7 @@ git rebase [branch-name]
 
 ### Как переименовать ветки GIT репозитория master в main
 git branch -m master main
+
 git push -u origin main
 ### Теперь в настройках репозитория ставим по умолчанию новую ветку "main"
 git push origin --delete master
